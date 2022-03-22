@@ -26,4 +26,4 @@ while(i <= B)
     i++;
 }
 
-Console.WriteLine(result);
+Console.WriteLine($"{A} в степени {B} = {result}");
