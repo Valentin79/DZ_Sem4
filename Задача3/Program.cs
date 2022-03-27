@@ -1,6 +1,7 @@
 ﻿//  Напишите программу, которая задаёт массив из 8 элементов случайными числами и выводит их на экран. 
 //Оформите заполнение массива и вывод в виде функции
 
+int[] arr = new int[8];
 void FillArray(int[] array)
 {
     Random rnd = new Random();
@@ -21,6 +22,6 @@ void PrintArray(int[] array)
     }
 }
 
-int[] arr = new int[8];
+
 FillArray(arr);
 PrintArray(arr);
